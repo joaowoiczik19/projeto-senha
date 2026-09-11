@@ -1,3 +1,4 @@
+
 const numeroSenha = document.querySelector('.parametro-senha__texto');
 let tamanhoSenha = 12;
 numeroSenha.textContent = tamanhoSenha;
@@ -24,6 +25,9 @@ function aumentaTamanho(){
 }
 
 const campoSenha = document.querySelector('#campo-senha');
+const checkbox = document.querySelectorAll('.checkbox');
+
+console.log(checkbox);
 
 const letrasMaisculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
